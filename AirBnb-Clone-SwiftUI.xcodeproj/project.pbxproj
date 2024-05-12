@@ -11,6 +11,11 @@
 		A17892012BE7503600795042 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17892002BE7503600795042 /* ContentView.swift */; };
 		A17892032BE7503800795042 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A17892022BE7503800795042 /* Assets.xcassets */; };
 		A17892062BE7503800795042 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A17892052BE7503800795042 /* Preview Assets.xcassets */; };
+		A17892172BE75C3F00795042 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17892162BE75C3F00795042 /* ExploreView.swift */; };
+		A178921B2BE75C8F00795042 /* ItemCardVertical.swift in Sources */ = {isa = PBXBuildFile; fileRef = A178921A2BE75C8F00795042 /* ItemCardVertical.swift */; };
+		A178921D2BE7B0B500795042 /* SearchAndFilterBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A178921C2BE7B0B500795042 /* SearchAndFilterBar.swift */; };
+		A178921F2BE7B43E00795042 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A178921E2BE7B43E00795042 /* DetailView.swift */; };
+		A17892212BE7B72500795042 /* ImageCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17892202BE7B72500795042 /* ImageCarouselView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		A17892002BE7503600795042 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A17892022BE7503800795042 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A17892052BE7503800795042 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A17892162BE75C3F00795042 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		A178921A2BE75C8F00795042 /* ItemCardVertical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCardVertical.swift; sourceTree = "<group>"; };
+		A178921C2BE7B0B500795042 /* SearchAndFilterBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAndFilterBar.swift; sourceTree = "<group>"; };
+		A178921E2BE7B43E00795042 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		A17892202BE7B72500795042 /* ImageCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCarouselView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +62,13 @@
 			isa = PBXGroup;
 			children = (
 				A17891FE2BE7503600795042 /* AirBnb_Clone_SwiftUIApp.swift */,
-				A17892002BE7503600795042 /* ContentView.swift */,
 				A17892022BE7503800795042 /* Assets.xcassets */,
+				A17892002BE7503600795042 /* ContentView.swift */,
+				A178920C2BE7505700795042 /* Core */,
+				A178920D2BE7506E00795042 /* Extension */,
+				A178920E2BE7507D00795042 /* Model */,
 				A17892042BE7503800795042 /* Preview Content */,
+				A178920F2BE7507F00795042 /* Utils */,
 			);
 			path = "AirBnb-Clone-SwiftUI";
 			sourceTree = "<group>";
@@ -65,6 +79,87 @@
 				A17892052BE7503800795042 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A178920C2BE7505700795042 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A17892182BE75C7000795042 /* Components */,
+				A17892102BE750C200795042 /* Explore */,
+				A17892122BE750CB00795042 /* Detail */,
+				A17892132BE750D300795042 /* Profile */,
+				A17892142BE750D900795042 /* Root */,
+				A17892152BE750DC00795042 /* TabBar */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A178920D2BE7506E00795042 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A178920E2BE7507D00795042 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A178920F2BE7507F00795042 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A17892102BE750C200795042 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				A17892162BE75C3F00795042 /* ExploreView.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		A17892122BE750CB00795042 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				A178921E2BE7B43E00795042 /* DetailView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		A17892132BE750D300795042 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		A17892142BE750D900795042 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		A17892152BE750DC00795042 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		A17892182BE75C7000795042 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A178921A2BE75C8F00795042 /* ItemCardVertical.swift */,
+				A178921C2BE7B0B500795042 /* SearchAndFilterBar.swift */,
+				A17892202BE7B72500795042 /* ImageCarouselView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +232,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A178921B2BE75C8F00795042 /* ItemCardVertical.swift in Sources */,
+				A178921F2BE7B43E00795042 /* DetailView.swift in Sources */,
 				A17892012BE7503600795042 /* ContentView.swift in Sources */,
+				A17892172BE75C3F00795042 /* ExploreView.swift in Sources */,
+				A178921D2BE7B0B500795042 /* SearchAndFilterBar.swift in Sources */,
+				A17892212BE7B72500795042 /* ImageCarouselView.swift in Sources */,
 				A17891FF2BE7503600795042 /* AirBnb_Clone_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
