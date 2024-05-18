@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A17466462BF0A2C800CF5A58 /* DestinationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17466452BF0A2C800CF5A58 /* DestinationSearchView.swift */; };
 		A17891FF2BE7503600795042 /* AirBnb_Clone_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17891FE2BE7503600795042 /* AirBnb_Clone_SwiftUIApp.swift */; };
 		A17892012BE7503600795042 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17892002BE7503600795042 /* ContentView.swift */; };
 		A17892032BE7503800795042 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A17892022BE7503800795042 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A17466452BF0A2C800CF5A58 /* DestinationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSearchView.swift; sourceTree = "<group>"; };
 		A17891FB2BE7503600795042 /* AirBnb-Clone-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AirBnb-Clone-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A17891FE2BE7503600795042 /* AirBnb_Clone_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirBnb_Clone_SwiftUIApp.swift; sourceTree = "<group>"; };
 		A17892002BE7503600795042 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				A17892162BE75C3F00795042 /* ExploreView.swift */,
+				A17466452BF0A2C800CF5A58 /* DestinationSearchView.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A178921B2BE75C8F00795042 /* ItemCardVertical.swift in Sources */,
+				A17466462BF0A2C800CF5A58 /* DestinationSearchView.swift in Sources */,
 				A178921F2BE7B43E00795042 /* DetailView.swift in Sources */,
 				A17892012BE7503600795042 /* ContentView.swift in Sources */,
 				A17892172BE75C3F00795042 /* ExploreView.swift in Sources */,
